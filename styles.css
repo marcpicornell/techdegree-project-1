@@ -134,6 +134,23 @@ ul.skills {
   background: #0399ff;
 }
 
+ul.hobbies {
+  padding: 0;
+  text-align: center;
+}
+
+.hobbies li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #a7ff04;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+.hobbies li:nth-child(odd) {
+  background: #c403ff;
+}
+
 footer {
   width: 100%;
   min-height: 30px;

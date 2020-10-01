@@ -62,9 +62,17 @@ a:hover {
   color: white
 }
 
-header {
+.header-home {
   text-align: center;
   background: url('images/dublin.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.header-hobby {
+  text-align: center;
+  background: url('images/sailing.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
